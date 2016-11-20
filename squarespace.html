@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="reset.css">
+	<title>Square space Hayden</title> <!--https://www.squarespace.com/websites/templates/hayden-->
+	<style type="text/css">
+	html,body {
+		height: 100%;
+		width: 100%;
+		font-family: sans-serif;
+		}
+
+		#main-wrapper {
+			height: 100%;
+			width: 100%;
+		}
+
+		header {
+			width: 100%;
+			height: 107%;
+			max-width: 100%;
+			background-image: url("hayden-header.jpg");
+			background-repeat: no-repeat;
+			background-size: 100%;
+			position: relative;
+		}
+
+		.overlay {
+			position: absolute;
+		    top: 0px;
+		    right: 0px;
+		    bottom: 0px;
+		    left: 0px;
+		    background-color: rgba(32, 26, 22, 0.701961);
+		    z-index: 99;
+		}
+
+		nav {
+			float: right;
+		    font-size: 13px;
+		    text-transform: uppercase;
+		    text-decoration: none;
+		    letter-spacing: 2px;
+		    font-weight: 500;
+		    font-style: normal;
+		    line-height: 1em;
+		    margin-right: 10px;
+		}
+
+		a {
+			text-decoration: none;
+			padding: .75em 1em;
+			color: #fff;
+		}
+
+		a:nth-child(4) {
+			    border: 2px solid #fff;
+			    padding: 1em 1.5em;			   
+		}
+
+		a:nth-child(4):hover{
+			background-color: white;
+			color: black;
+		}
+
+		nav a:first-child {
+			color: #9c9999;
+		}
+
+		nav a:nth-child(2):hover{
+			color: #9c9999;
+		}
+
+		nav a:nth-child(3):hover{
+			color: #9c9999;
+		}
+
+		#logo a {
+			    font-size: 24px;
+			    text-transform: uppercase;
+			    letter-spacing: 3px;
+			    font-weight: 500;
+			    font-style: normal;
+			    color: #fff;
+			    margin: 0;
+			    padding-top: 0;
+			    padding-bottom: 0;
+			    line-height: 1em;
+		}
+		#logo {
+			display: inline-block;
+		}
+
+		#nav-main-wrapper {
+			padding-top: 50px;
+		}
+
+		h1 {
+			font-size: 32px;
+			margin-bottom: 30px;
+			color: #1f1f1f;
+		}
+
+		#header-top {
+			display: inline-block;
+			position: absolute;
+			text-align: center;
+			height: 50%;
+			width: 900px;
+			margin: 0 auto;
+			top: 40% ; left: 0; right: 0; bottom:25%;
+			z-index: 99999;
+			max-width: 956px;
+		}
+
+		#lower-header-button {
+			font-size: 16px;
+		    text-transform: uppercase;
+		    letter-spacing: 2px;
+		    font-weight: 400;
+		    font-style: normal;
+		    text-decoration: none;
+		    padding: 1em 1.75em;
+			display: inline-block;
+		    line-height: 1em;
+		    margin: 10px 0;
+		    color: #9c9999;
+		    border:2px solid #9c9999;
+		}
+
+		#header-top a:hover {
+			background-color: #9c9999;
+			color: black;
+		}
+
+		#upper-moto {
+		    font-size: 28px;
+		    line-height: 1.3em;
+		    text-transform: uppercase;
+		    letter-spacing: 4px;
+		    font-weight: 300;
+		    font-style: normal;
+		    color: #9c9999;
+		    margin: 20px auto;
+		}
+
+		#lower-moto {
+			    font-size: 86px;
+			    line-height: 1.1em;
+			    text-transform: none;
+			    letter-spacing: 0px;
+			    font-weight: 300;
+			    font-style: normal;
+			    color: #fff;
+		}
+
+		section h1 {
+				text-align: center;
+				margin-top: 150px;
+			    font-size: 42px;
+			    line-height: 1.2em;
+			    text-transform: none;
+			    letter-spacing: 0px;
+			    font-weight: 300;
+			    font-style: normal;
+		}
+
+		section section {
+			font-size: 16px;
+		    line-height: 1.6em;
+		    letter-spacing: .5px;
+		    font-weight: 300;
+		    font-style: normal;
+		    color: #1f1f1f;
+		    display: inline-block;
+		}
+
+		section section ul,section section ul li {
+			display: inline-block;
+		}
+
+		#Alice-Gao
+		{	padding: 0;
+			margin: auto;
+			color: rgba(31,31,31,.5);
+		}
+
+		main {
+			text-align: center;
+			margin: auto;
+		}
+
+		#Alice-Gao-Section{
+			margin-bottom: 4%;
+		}
+
+		#moto2 {
+			margin-bottom: 2%;
+		}
+
+		#residentials {
+			position: relative;
+			float: left;
+			margin-right: 2%;
+		}
+
+		.residentials-text {
+			clear: left;
+			float: left;
+			width: 280px;
+		    font-size: 16px;
+		    line-height: 1.6em;
+		    letter-spacing: .5px;
+		    font-weight: 300;
+		    font-style: normal;
+		    color: #1f1f1f;
+		    margin-right: 2%;
+		}
+
+		.text-structure {
+			width: 300px;
+			float: left;
+			font-size: 16px;
+		    line-height: 1.6em;
+		    letter-spacing: .5px;
+		    font-weight: 300;
+		    font-style: normal;
+		    color: #1f1f1f;
+		    margin-right: 2%;
+		}
+
+		#commercial {
+			float: left;
+			margin-right: 2%;
+		}
+
+		#hospitality {
+			float: left;
+			
+		}
+
+		.images-margin-bottom {
+			margin-bottom: 3%;
+		}
+
+		#moreau-section {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			margin-bottom: 330px;
+		}
+
+		.moreau {
+			position: absolute;
+			background-image: url("moreau.jpg");
+			width: 100%;
+			height: 100%;
+			height: 250px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+		    }
+		
+		.clear {
+			clear: both;
+		}
+
+		#Moreau {
+			position: absolute;
+		    font-size: 86px;
+		    line-height: 1.1em;
+		    text-transform: none;
+		    letter-spacing: 0px;
+		    font-weight: 300;
+		    font-style: normal;
+		    color: #fff;
+		    left:0;
+		    right: 0;
+		    top: 0;
+		    margin-top: 5%;
+		    bottom: 0;
+		}
+
+		#Montreal{
+			position: absolute;
+			font-size: 28px;
+		    line-height: 1.3em;
+		    text-transform: uppercase;
+		    letter-spacing: 4px;
+		    font-weight: 300;
+		    font-style: normal;
+		    color: #9c9999;
+		    margin: 20px auto;
+		    left:0;
+		    right: 0;
+		    top: 0;
+		    bottom: 0;
+		   	top: 180px;
+		}
+
+		#section-wrapper {
+			margin: 0 auto;
+			height: 550px;
+			width: 940px;
+		}
+		
+		.bring-to-front {
+			position: relative;
+			z-index: 999999999;
+		}
+
+		#header-position {
+			position: relative;
+			width: 100%;
+			height: 100%;
+		}
+
+		#chairs {
+			display: inline-block;
+			width: 493px;
+			height: 657.656px;
+			margin-right: 15px;
+		}
+
+		#more-chairs {
+			display: inline-block;
+			width: 493px;
+			height: 657.656px;
+			margin-left: 15px;
+		}
+
+		#soldier-and-clock {
+			width: 1020.250px;
+			height: 679.828px;
+			padding-top: 25px;
+			padding-bottom: 100px;
+			
+		}
+
+		#warm-design {
+			width: 668.656px;
+			margin: 0 auto;
+			margin-bottom: 50px;
+			line-height: 1.6em;
+    		letter-spacing: .5px;
+    		color: #1f1f1f;
+		}
+
+		#cookies {
+			background-image: url(cookies.jpg);
+			width: 100%;
+			height: 274px;
+			position: relative;
+		}
+
+		#Pacific {
+			font-size: 86px;
+    		line-height: 1.1em;
+		    color: #fff;
+		    font-weight: 300;
+		}
+
+		#BROOKLYN {
+		    font-size: 28px;
+			line-height: 1.3em;
+			letter-spacing: 4px;
+		    font-weight: 300;
+		    color: #9c9999;
+		}
+
+		#Pacific-Tavern-Brooklyn {
+			position: relative;
+			top: 25%;
+		}
+
+		#trendy-brooklyn {
+			width: 668.656px;
+			margin: 0 auto;
+			margin-bottom: 60px;
+			font-size: 16px;
+		    line-height: 1.6em;
+		    letter-spacing: .5px;
+		    font-weight: 300;
+		    font-style: normal;
+		    color: #1f1f1f;
+		}
+
+		#dinning-room {
+			width: 1020px;
+			height: 1530.750px;
+			margin-bottom: 20px;
+		}
+
+		#dinning-room-front {
+			width: 493px;
+			height: 739.625px;
+			margin-top: 10px;
+			margin-right: 15px;
+		}
+
+		#breakfast {
+			width: 493.203px;
+			height: 739.672px;
+			margin-top: 10px;
+			margin-left: 15px;
+		}
+
+		#El-Panamericano {
+			position: relative;
+			background-image: url(pillows.jpg);
+			width: 100%;
+			height: 249px;
+			margin-bottom: 50px;
+		}
+
+		#El-Panamericano-heading {
+			font-size: 86px;
+			color: #fff;
+		    line-height: 1.1em;
+		    letter-spacing: 0px;
+		}
+
+		#BUENOS-AIRES-heading {
+			font-size: 28px;
+    		line-height: 1.3em;
+    		letter-spacing: 4px;
+    		font-weight: 300;
+    		color: #9c9999;
+		}
+
+		.text-wrapper {
+			position: relative;
+			top: 25%;
+		}
+
+		.text-adjust {
+			width: 668.656px;
+			margin: 0 auto;
+			color: #1f1f1f;
+		    font-size: 16px;
+		    line-height: 1.6em;
+		    letter-spacing: .5px;
+		    margin-bottom: 60px;
+		    font-weight: 300;
+		    color: #1f1f1f;
+		}
+
+		#bedroom {
+			width: 493px;
+			height: 657.656px;
+			margin-bottom: 15px;
+			margin-right: 15px;
+		}
+
+		#paintings {
+			width: 493px;
+			height: 657.656px;
+			margin-bottom: 15px;
+			margin-left: 15px;
+		}
+
+		#mirror {
+			width: 493px;
+			height: 657.656px;
+			margin-top: 15px;
+			margin-right: 15px;
+		}
+
+		#coffee {
+			width: 493px;
+			height: 657.656px;
+			margin-top: 15px;
+			margin-left: 15px;
+		}
+
+		#windows {
+			position: relative;
+			background-image: url(windows.jpg);
+			width: 100%;
+			height: 277px;
+		}
+
+		#park-820 {
+		    color: #fff;
+	        font-weight: 300;
+	        letter-spacing: 0px;
+            line-height: 1.1em;
+            font-size: 86px;
+		}
+
+		#new-york {
+		    font-size: 28px;
+		    line-height: 1.3em;
+	        font-size: 28px;
+            color: #9c9999;
+            margin: 20px auto;
+		}
+
+		#text-adjust-windows {
+			position: relative;
+			width: 100%;
+			height: 277px;
+			top: 25%; 
+		}
+
+		#high-end-living {
+			font-size: 32px;
+	    	line-height: 1.2em;
+	    	letter-spacing: 0px;
+    		font-weight: 300;
+   		 }
+
+   		 #living-room {
+   		 	width: 1020px;
+   		 	height: 765px;
+   		 	margin-bottom: 15px;
+   		 }
+
+   		 #living-room2 {
+   		 	margin-top: 15px;
+   		 	margin-right: 15px;
+   		 	margin-bottom: 70px;
+   		 	width: 493px;
+   		 	height: 657.656px;
+   		 }
+
+   		 #curtains {
+   		 	margin-top: 15px;
+   		 	margin-left: 15px;
+   		 	margin-bottom: 70px;
+   		 	width: 493px;
+   		 	height: 657.656px;
+   		 }
+
+   		 #sodermalm-house {
+   		 	background-image: url("kitchen.jpg");
+   		 	width: 100%;
+   		 	height: 321px;
+   		 	position: relative;
+   		 }
+
+   		 #Sodermalm-House-first-heading {
+   		 	font-size: 86px;
+    		line-height: 1.1em;
+    		letter-spacing: 0px;
+    		font-weight: 300;
+    		color: #fff;
+   		 }
+
+   		 #STOCKHOLM-second-heading {
+   		 	font-size: 28px;
+   		 	line-height: 1.3em;
+   		 	letter-spacing: 4px;
+   		 	font-weight: 300;
+   		 	color: #9c9999;
+   			margin: 20px auto;
+   		 }
+
+   		 #Stockholm-favourite {
+   		 	font-size: 32px;
+   		 	letter-spacing: 0px;
+    		font-weight: 300;
+    		line-height: 1.2em;
+   		 }
+
+   		 #window-and-flowers {
+   		 	width: 1020.250px;
+   		 	height: 679.828px;
+   		 	margin-top: 30px;
+   		 	margin-bottom: 95px;
+
+   		 }
+
+   		 #another-bedroom {
+   		 	width: 493px;
+   		 	height: 657.656px;
+   		 	margin-left: 15px;
+   		 }
+
+   		 #childrens-room {
+   		 	width: 493px;
+   		 	height: 657.656px;
+   		 	margin-right: 15px;
+   		 }
+
+   		 #kitchen-fullscreen {
+   		 	width: 1020.250px;
+   		 	height: 679.828px;
+   		 	margin-bottom: 30px;
+   		 }
+
+   		 .icons-adjust {
+   		 	width: 20px;
+   		 	height: 20px;
+   		 	position: relative;
+   		 }
+
+   		 #direct-icons {
+   		 	width: 70px;
+   		 	margin:0 auto;
+   		 }
+
+   		 #overlay2 {
+   		 	height: 90px;
+	 	    background-color: #f0f0f0;
+	 	    position: relative;
+   		 }
+
+   		 #icons-adjust2 {
+   		 	position: absolute;
+   		 	top: 35%;
+   		 }
+
+   		 #footer {
+   		 	background-color: #201a16;
+   		 	height: 202px;
+   		 }
+
+   		 .footer-adjust {
+   		 	text-align: center;
+   		 	text-transform: uppercase;
+   		 }
+
+   		 .the-hayden-collective{
+   		 	font-size: 14px;
+   		 	color: rgba(255,255,255,.9);
+			margin-bottom: 20px;
+   		 	letter-spacing: 2px;
+   		 }
+
+   		 .powered-by {
+	 	    font-size: 16px;
+		    line-height: 1.6em;
+		    letter-spacing: .5px;
+		    font-weight: 300;
+		    color: rgba(255,255,255,.4);
+			text-transform: none;
+   		 }
+   		  
+   		 #footer-reference {
+   		 	color: inherit;
+   		 	display: inline-block;
+   		 	padding: 0px;
+   		 	border-bottom: 1px solid;
+   		 	line-height: 14px;
+   		  }
+
+   		  #text-wrapper-footer {
+   		  position: relative;
+   		  top: 35%;
+   		  }
+
+   		  .footer-anchors {
+   		  	padding: 0px 5px 0px 5px;
+   		  }
+		</style>
+</head>
+<body>
+	<section id="main-wrapper">
+		<header>
+				<div class="overlay">
+					<div id="nav-main-wrapper">
+							<div id="logo">
+								<a href="#">Hayden</a>
+							</div>
+							<nav>
+								<a href="#">Work</a>
+								<a href="#">About</a>
+								<a href="#">Blog</a>
+								<a href="#">Hire us</a>
+							</nav>
+						</div>
+				</div>
+				<div id="header-position">
+					<div id="header-top">
+						<p id="upper-moto">The Hayden Collective</p>
+						<p id="lower-moto">We design thoughtful,<br> livable spaces.</p>
+						<ul>
+							<li><a href="#" id="lower-header-button">View Our Work</a></li>
+						</ul>
+					</div>
+				</div>
+		</header>
+	</section>
+		<main>
+		<section>
+			<h1 id="moto2">
+				The Hayden Collective employs the world’s best designers and <br> architects to elevate your space to the next level.
+			</h1>
+			<section id="Alice-Gao-Section">Photography courtesy of <ul><li><a href="#" id="Alice-Gao">Alice Gao.</a></li></ul> Content for demo purposes only.</section>
+				<div id="section-wrapper">
+						<img src="residentials.jpg" alt="residentials" id="residentials" class="images-margin-bottom">
+						<img src="commercial.jpg" alt="commercial" id="commercial" class="images-margin-bottom">
+						<img src="hospitality.jpg" alt="hospitality" id="hospitality" class="images-margin-bottom">
+						<p class="residentials-text">RESIDENTIAL<br><br>
+							From Montreal to Shanghai, we've designed comfortable and livable homes for families of all shapes and sizes. Cras justo odio, dapibus ac facilisis in, egestas eget quam lorem ipsum.
+						</p>
+					
+					<div>
+						<p class="text-structure">COMMERCIAL<br><br>
+						We have extensive experience designing interiors for restaurants and offices. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dolor sit amet.
+						</p>
+					</div>
+					<div>
+						<p class="text-structure">HOSPITALITY<br><br>
+						If you need your guests to have an unforgettable experience, the Hayden Collective will deliver. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus
+						</p>
+					</div>
+				</div>
+		</section>
+		<figure id="moreau-section">
+					<div class="moreau">
+					<div class="overlay"></div>
+						<p class="bring-to-front" id="Moreau">Moreau</p>
+						<p class="bring-to-front" id="Montreal">Montréal</p>
+					</div>
+		</figure>
+			<h1>Warm design for a classic downtown brunch spot</h1>
+			<p id="warm-design">Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+			<figure>
+				<img src="chairs.jpg" id="chairs" alt="chairs">
+				<img src="more-chairs.jpg" id="more-chairs" alt="more-chairs">
+				<img src="soldier-and-clock.jpg" id="soldier-and-clock" alt="soldier-and-clock">
+			</figure>
+
+			<div id="cookies">
+				<div class="overlay"></div>
+				<div id="Pacific-Tavern-Brooklyn">
+					<h1 class="bring-to-front" id="Pacific">Pacific Tavern</h1>
+					<h2 class="bring-to-front" id="BROOKLYN">BROOKLYN</h2>
+				</div>
+			</div>
+			<section>
+				<h1>A trendy Brooklyn establishment gets a signature look.</h1>
+				<p id="trendy-brooklyn">Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+			</section>
+			<figure>
+				<img src="dinning-room.jpg" id="dinning-room" alt="dinning-room"><div class="clear"></div>
+				<img src="dinning-room-front.jpg" id="dinning-room-front" alt="dinning-room-front">
+				<img src="breakfast.jpg" id="breakfast" alt="breakfast">
+			</figure>
+			<section>
+				<figure id="El-Panamericano">
+					<div class="overlay"></div>
+					<div class="text-wrapper">	
+							<h1 class="bring-to-front" id="El-Panamericano-heading">El Panamericano</h1>
+							<h2 class="bring-to-front" id="BUENOS-AIRES-heading">BUENOS AIRES</h2>
+					</div>
+				</figure>
+				<h1>A historical hotel gets a new coat of paint</h1>
+				<div class="text-adjust"><p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p></div>
+				<figure>
+					<img src="bedroom.jpg" id="bedroom" alt="bedroom">
+					<img src="paintings.jpg" id="paintings" alt="paintings"><div class="clear"></div>
+					<img src="mirror.jpg" id="mirror" alt="mirror">
+					<img src="coffee.jpg" id="coffee" alt="coffee">
+				</figure>
+			</section>
+			<section>
+				<figure id="windows">
+				<div class="overlay"></div>
+					<div class="text-adjust" id="text-adjust-windows">
+						<h1 class="bring-to-front" id="park-820">820 Park</h1>
+						<h2 class="bring-to-front" id="new-york">NEW YORK</h2>
+					</div>
+				</figure>
+				<div class="text-adjust">
+					<h1 id="high-end-living">High-end living in the Upper East Side</h1>
+					Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod.
+				</div>
+				<figure>
+					<img src="living-room.jpg" id="living-room" alt="living-room"><div class="clear"></div>
+					<img src="living-room2.jpg" id="living-room2" alt="living-room2">
+					<img src="curtains.jpg" id="curtains" alt="curtains">
+				</figure>
+			</section>
+			<section>
+				<figure id="sodermalm-house">
+					<div class="overlay"></div>
+					<div class="text-wrapper">
+						<h1 class="bring-to-front" id="Sodermalm-House-first-heading">Södermalm House</h1>
+						<h2 class="bring-to-front" id="STOCKHOLM-second-heading">STOCKHOLM</h2>
+					</div>
+				</figure>
+				<h1 id="Stockholm-favourite">Stockholm's favorite hostel goes high-end</h1>
+				<div class="text-adjust">
+					Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+				</div>
+				<figure>
+					<img src="kitchen-full-screen.jpg" id="kitchen-fullscreen" alt="kitchen-fullscreen"><div class="clear"></div>
+					<img src="kid's-room.jpg" id="childrens-room" alt="children's-room">
+					<img src="another-bedroom.jpg" id="another-bedroom" alt="another-bedroom">
+					<img src="window-and-flowers.jpg" id="window-and-flowers" alt="windo">
+				</figure>	
+			</section>
+	</main>
+		<footer>
+			<div id="overlay2">
+				<div id="direct-icons">
+					<div id="icons-adjust2">
+							<a href="#" class="footer-anchors">
+								<img src="facebook-icon.svg" alt="facebook-icon-direct" class="icons-adjust">
+							</a>
+							<a href="#" class="footer-anchors">
+								<img src="twitter-icon.svg" alt="twitter-icon-direct" class="icons-adjust">
+							</a>
+							<a href="#" class="footer-anchors">
+								<img src="instagram-icon.svg" alt="instagram-icon-direct" class="icons-adjust">
+							</a>
+					</div>
+				</div>
+			</div>
+				<div id="footer">
+						<div id="text-wrapper-footer">
+							<div class="text-adjust footer-adjust the-hayden-collective">
+								The Hayden Collective, 459 Broadway, New York 212-555-9876
+							</div>
+							<div class="text-adjust footer-adjust powered-by">
+								Powered by <a href="#" id="footer-reference">Squarespace</a>
+							</div>
+						</div>
+					</div>
+		</footer>
+ 	
+	
+</body>
+</html>
